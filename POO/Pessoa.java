@@ -62,15 +62,6 @@ public class Pessoa {
         return peso / (altura * altura);
     }
 
-    public String classificacaoImc() {
-        double imc = calcularImc();
-
-        if(imc < 18.5) return "Abaixo do peso";
-        if(imc < 25.0) return "Peso normal";
-        if(imc < 30) return "Sobrepeso";
-        return "Obesidade";
-    }
-
     public String apresentar() {
         return "Olá, me chamo " + nome + ", tenho " + idade + " anos, peso " + peso + "kg e tenho " + "de altura";
     }
