@@ -4,11 +4,14 @@ public class IdadeDias {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.print("Digite sua idade: ");
-        int idade = leitor.nextInt();
+        int idadeD = leitor.nextInt();
 
-        int idadeDias = idade * 365;
+        int ano = idadeD / 365;
+        int mes = (idadeD % 365) / 30;
+        int dias = (idadeD % 365) % 30;
 
-        System.out.printf("%d anos é equivalente a aproximadamente %d dias", idade, idadeDias);
+        System.out.println(ano + " ano(s)");
+        System.out.println(mes + " mes(es)");
+        System.out.println(dias + " dia(s)");
     }
 }
