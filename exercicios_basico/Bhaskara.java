@@ -7,18 +7,19 @@ public class Bhaskara {
         double A = leitor.nextDouble();
         double B = leitor.nextDouble();
         double C = leitor.nextDouble();
-        double R1;
-        double R2;
 
+        double delta = Math.pow(B, 2) - (4 * A * C);
 
-        if(A != 0 ) {
-
-            System.out.println("R1 = ");
-            System.out.println("R2 = ");
-        } else {
+        if(A == 0 || delta < 0) {
             System.out.println("Impossivel calcular");
+        } else {
+            double R1 = (-B + Math.sqrt(delta)) / (2 * A);
+            double R2 = (-B - Math.sqrt(delta)) / (2 * A);
+
+            System.out.printf("R1 = %.5f%n", R1);
+            System.out.printf("R2 = %.5f%n", R2);
         }
 
+        leitor.close();
     }
-    // -b +- raiz de b^2 - (4 * ac) / (2a)
 }
