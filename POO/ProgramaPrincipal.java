@@ -19,5 +19,13 @@ public class ProgramaPrincipal {
         System.out.println("IMC de " + pessoa1.getNome() + ": " + pessoa1.calcularImc());
         System.out.println(pessoa1.apresentar());
         System.out.println(pessoa2.apresentar());
+
+
+
+        Circulo novoCirculo = new Circulo();
+
+        novoCirculo.setRaio(78);
+
+        System.out.println("Raio: " + novoCirculo.getRaio() + " Area: " + novoCirculo.calcularArea() + " Circunferência: " + novoCirculo.calcularCircunferencia());
     }
 }
