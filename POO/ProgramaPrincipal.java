@@ -27,5 +27,11 @@ public class ProgramaPrincipal {
         novoCirculo.setRaio(78);
 
         System.out.println("Raio: " + novoCirculo.getRaio() + " Area: " + novoCirculo.calcularArea() + " Circunferência: " + novoCirculo.calcularCircunferencia());
+
+
+        Disciplina novaDisciplina = new Disciplina("POO", 76, 40);
+        novaDisciplina.calcularMediaParcial();
+
     }
+
 }
