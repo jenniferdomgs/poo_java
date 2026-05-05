@@ -1,3 +1,5 @@
+// TESTES com classes
+
 public class ProgramaPrincipal {
     public static void main(String[] args) {
         // criar uma pessoa -> instanciar (nova)
@@ -29,9 +31,16 @@ public class ProgramaPrincipal {
         System.out.println("Raio: " + novoCirculo.getRaio() + " Area: " + novoCirculo.calcularArea() + " Circunferência: " + novoCirculo.calcularCircunferencia());
 
 
-        Disciplina novaDisciplina = new Disciplina("POO", 76, 40);
-        novaDisciplina.calcularMediaParcial();
+        Disciplina novaDisciplina = new Disciplina("POO", 58, 40);
+        System.out.println(novaDisciplina.calcularMediaParcial());
+        System.out.println(novaDisciplina.calcularMediaFinal());
+        System.out.println(novaDisciplina.Aprovado());
+        novaDisciplina.setNotaProvaFinal(100);
 
+
+        Lanche novoLanche = new Lanche(1, 2);
+        System.out.println(novoLanche.calcularTotal());
+        System.out.println(novoLanche.toString());
     }
 
 }
