@@ -1,7 +1,6 @@
 import java.util.Locale;
-import java.util.Scanner;
 
-class Lanche {
+public class Lanche {
     private int codigo;
     private int qtdde;
 
@@ -44,12 +43,7 @@ class Lanche {
     }
 
     public String toString() {
-        return String.format("Total: R$ %.2f", calcularTotal());
+        return String.format(Locale.US, "Total: R$ %.2f", calcularTotal());
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-
-    }
-}

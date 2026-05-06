@@ -1,10 +1,8 @@
-// TESTES com classes
+// TESTES com as classes da pasta POO
 
 public class ProgramaPrincipal {
     public static void main(String[] args) {
-        // criar uma pessoa -> instanciar (nova)
-        // tipo(classe) var = new classe()
-
+        // PESSOA
         Pessoa pessoa1 = new Pessoa();
 
         pessoa1.setNome("Jennifer");
@@ -23,7 +21,7 @@ public class ProgramaPrincipal {
         System.out.println(pessoa2.apresentar());
 
 
-
+        // CIRCULO
         Circulo novoCirculo = new Circulo();
 
         novoCirculo.setRaio(78);
@@ -31,6 +29,7 @@ public class ProgramaPrincipal {
         System.out.println("Raio: " + novoCirculo.getRaio() + " Area: " + novoCirculo.calcularArea() + " Circunferência: " + novoCirculo.calcularCircunferencia());
 
 
+        // DISCIPLINA
         Disciplina novaDisciplina = new Disciplina("POO", 58, 40);
         System.out.println(novaDisciplina.calcularMediaParcial());
         System.out.println(novaDisciplina.calcularMediaFinal());
@@ -38,8 +37,8 @@ public class ProgramaPrincipal {
         novaDisciplina.setNotaProvaFinal(100);
 
 
+        // LANCHE
         Lanche novoLanche = new Lanche(1, 2);
-        System.out.println(novoLanche.calcularTotal());
         System.out.println(novoLanche.toString());
     }
 
