@@ -7,7 +7,6 @@
       <sourceFolder url="file://$MODULE_DIR$/POO" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/lista_bee" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exam_1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/coleções" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
