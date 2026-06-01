@@ -8,6 +8,10 @@ public class Playlist {
         this.musicas = new ArrayList<>();
     }
 
+    public List<Musica> getMusicas() {
+        return musicas;
+    }
+    
     public void inserir(Musica musica) {
         this.musicas.add(musica);
     }
@@ -36,10 +40,6 @@ public class Playlist {
     }
 
     public void remover(String titulo) {
-        for(Musica musica: musicas) {
-            if(musica.getTitulo().equals(titulo)) {
-                musicas.remove(musica);
-            }
-        }
+        musicas.removeIf(musica -> musica.getTitulo().equals(titulo));
     }
 }
