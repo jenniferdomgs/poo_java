@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/lista_bee" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exam_1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/coleções" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/interfaces" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
