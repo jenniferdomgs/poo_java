@@ -3,7 +3,7 @@
 public class ProgramaPrincipal {
     public static void main(String[] args) {
         // PESSOA
-        Pessoa pessoa1 = new Pessoa();
+        Pessoa3 pessoa1 = new Pessoa3();
 
         pessoa1.setNome("Jennifer");
         pessoa1.setIdade(20);
@@ -12,7 +12,7 @@ public class ProgramaPrincipal {
 
         System.out.println("Nome: " + pessoa1.getNome() + " | Idade: " + pessoa1.getIdade() + " | Peso: " + pessoa1.getPeso() + " | Altura: " + pessoa1.getAltura());
 
-        Pessoa pessoa2 = new Pessoa("Karoline", 20, 60.0, 1.67);
+        Pessoa3 pessoa2 = new Pessoa3("Karoline", 20, 60.0, 1.67);
 
         System.out.println(pessoa2.getNome());
 
