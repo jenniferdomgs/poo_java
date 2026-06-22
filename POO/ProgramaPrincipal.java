@@ -3,6 +3,7 @@
 public class ProgramaPrincipal {
     public static void main(String[] args) {
         // PESSOA
+        /*
         Pessoa3 pessoa1 = new Pessoa3();
 
         pessoa1.setNome("Jennifer");
@@ -20,7 +21,7 @@ public class ProgramaPrincipal {
         System.out.println(pessoa1.apresentar());
         System.out.println(pessoa2.apresentar());
 
-
+         */
         // CIRCULO
         Circulo novoCirculo = new Circulo();
 

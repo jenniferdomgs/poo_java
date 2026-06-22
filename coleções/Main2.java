@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         Usuario obj1 = new Usuario("Olival");
         Usuario obj2 = new Usuario("Pedro");

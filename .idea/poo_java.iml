@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/coleções" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/herançaEpolimorfismo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ClassesAbstratas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exam_3_ex" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-public class Quadrado extends Retangulo {
+public class Quadrado extends Retangul {
     public Quadrado(double base, double altura) {
         super(base, altura);
     }

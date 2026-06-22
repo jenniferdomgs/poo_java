@@ -4,6 +4,6 @@ public class PrincipalH {
        aluno.imprimirInfo();
 
        Quadrado quad = new Quadrado(4, 2);
-       System.out.println(quad.calcArea());
+      // System.out.println(quad.calcArea());
     }
 }
