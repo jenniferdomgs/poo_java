@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ClassesAbstratas" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exam_3_q1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exam_3_q2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/biblioteca" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exam_3" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
